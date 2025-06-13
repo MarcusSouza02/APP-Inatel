@@ -1,0 +1,89 @@
+:root {
+    --cor-click: #126ae2; 
+    --cor-sombra: #0a599b; 
+    --cor-text: black; 
+    --cor-back1: #edf2f4; 
+    --cor-back2: #6a937a; 
+}
+
+body {
+    margin: 0px;
+    background-color: var(--cor-back1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    @import url(https://fonts.googleapis.com/css?family=Arimo);
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    }
+    
+    .form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+    }
+            
+    .form-group {
+    margin-bottom: 15px;
+    }
+            
+    label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    }
+            
+    input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    }
+            
+    button {
+    padding: 10px 15px;
+    background-color: #0a599b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+            
+    button:hover {
+    background-color:#0a599b;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        height: 40px; 
+        resize: none;
+    }
+    
+    #logo {
+        position: absolute;
+        top: 13px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .svg_logo{
+        width: 400px;
+    }
+    .path_logo{
+        fill:#126ae2;
+    }
+
+    .font {
+        font-family: "Arimo", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 20px;
+        color: var(--cor-text)
+    }

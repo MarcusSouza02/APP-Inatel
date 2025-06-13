@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de documentos</title>
+    <link rel="stylesheet" href="style_docs.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script>
+        function goToDocuments() {
+            window.location.href = "http://127.0.0.1:5500/Pagina%20inicial/main_inicial.html";
+        }
+    </script>
+</head>
+<body>
+    <header id="head">
+        <div id="icone_arrow"><span class="material-icons">chevron_left</span></div>
+        <div id="menu"> MENU </div>
+        <div id="menu_aba">
+            <div id="menu_bot" onclick="goToDocuments()">Página Incial</div>
+            <button id="icone_arrow_back" onclick="closeMenu()"><span class="material-icons">arrow_forward_ios</span></button>
+        </div>
+        <button id="icone_arrow" onclick="openMenu()"><span class="material-icons">chevron_left</span></button>
+    </header>
+    <main>
+        <div id="documentos"> 
+            <h1 id="documentos" class="font">Documentos</h1> 
+        </div>
+
+        <div id="cra">
+            <div id="cra_icon"><span class="material-icons">description</span></div>
+            <p id="name_cra" class="font"><strong>CRA</strong></p>
+            <p id="txt_cra" class="font"> Documentos fornecidos pelo CRA</p>
+        </div>
+
+        <div id="tesouraria">
+            <div id="money_icon"><span class="material-icons">paid</span></div>
+            <p id="name_tesouraria" class="font"><strong>TESOURARIA</strong></p>
+            <p id = "txt_teso"class="font"> Documentos fornecidos pela Tesouraria</p>
+        </div>
+
+        <div id="nesp">
+            <div id="nesp_icon"><span class="material-icons">language</span></div>
+            <p id="name_nesp" class="font"><strong>NESP</strong></p>
+            <p id = "txt_nesp" class="font">Documentos fornecidos pelo NESP</p>
+        </div>
+
+        <div id="consulta">
+            <div id="question_icon"><span class="material-icons">help</span></div>
+            <p id="name_consulta" class="font"><strong>PEDIDOS</strong></p>
+            <p id = "txt_consulta"class="font"> Consulte seus pedidos </p>
+        </div>
+
+        <div id="requerimento"> 
+            <h2 id="requerimentos" class="font"><strong>Requerimentos</strong></h2> 
+        </div>
+
+        <div id="trancar">
+            <div id="lock_icon"><span class="material-icons">lock</span></div>
+            <p id="name_trancar" class="font"><strong>DESISTÊNCIA</strong></p>
+            <p id="txt_trancar" class="font">Desistência de Disciplinas</p>
+        </div>
+
+        <div id="pvs">
+            <div id="subs_icon"><span class="material-icons">autorenew</span></div>
+            <p id="name_subs" class="font"><strong>PROVAS</strong></p>
+            <p id="txt_subs" class="font">Pedido de PVS</p>
+        </div>
+    </main>
+
+    <script src="docs.js">
+        const menu = document.getElementById('icone_arrow');
+        menu.addEventListener('click', function() {
+            window.location.href = 'http://127.0.0.1:5500/Pagina%20inicial/main_inicial.html'; 
+        });
+        function goToDocuments() {
+            window.location.href = "http://127.0.0.1:5500/Pagina%20de%20documentos/main_docs.html";
+        }
+    </script>
+</body>
+</html>

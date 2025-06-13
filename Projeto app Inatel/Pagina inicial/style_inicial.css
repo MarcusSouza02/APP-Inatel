@@ -1,0 +1,301 @@
+:root {
+  --cor-click: #126ae2; 
+  --cor-sombra: #0a599b; 
+  --cor-text: black; 
+  --cor-back1: #edf2f4; 
+  --cor-back2: #6a937a; 
+  --md-sys-color-primary: #006A6A;
+  --md-sys-color-on-primary: #FFFFFF;
+  --md-sys-color-primary-container: #6FF7F6;
+  --md-sys-color-on-primary-container: #002020;
+  }
+
+body {
+    margin: 0px;
+    background-color: var(--cor-back1);
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Arimo);
+
+  header {
+    position: relative;
+    height: 35px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: var(--cor-back1);
+  }
+
+#menu_aba {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+#menu_bot {
+  position: relative;
+  padding: 20px;
+  display: "block";
+  cursor: pointer;
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 20pt;
+  color: var(--cor-click);
+}
+
+  #icone_menu span {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    margin-left: 15px;
+    color: var(--cor-click);
+    background-color:var(--cor-back1);
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+  }
+
+  #icone_menu .material-icon{
+    font-size: 50px;
+  }
+
+  #icone_arrow span {
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    margin-right: 5px;
+    color: var(--cor-click);
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+  }
+
+  #icone_arrow.material-icon{
+    font-size: 50px;
+  }
+
+#logo {
+  position: absolute;
+  top: 13px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.svg_logo{
+  width: 80px;
+}
+
+.path_logo{
+  fill: #126ae2;
+}
+
+  #icone_perfil span{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    margin-right: 15px;
+    color: var(--cor-click);
+  }  
+
+  #icone_perfil .material-icon{
+    font-size: 35px;
+  }
+
+  #Boas_vindas {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+
+  #user_name {
+    position: relative;
+    display: block;
+    font-size: 17pt;
+    color: var(--cor-text);
+    text-align: center;
+    font-size: 30px;
+  }
+ 
+  #clock_icon span {
+    color: var(--cor-click);
+    margin-right: 10px;
+  }
+
+  #clock_icon .material-icon{
+    font-size: 10px;
+  }
+
+  #clock_icon {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-left: 0px;
+  }
+
+  #aula_hoje {
+    position: absolute;
+    left: 8px;
+    top: -3px;
+    margin-left: 45px;
+  }
+
+  #aulas {
+    position: relative;
+    background-color: white;
+    color: var(--cor-text);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 20pt;
+  }
+  
+  #Notas_icon span {
+    color: var(--cor-click);
+  }
+
+  #Notas_icon {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-left: 0px;
+  }
+
+  #sua_nota {
+    position: absolute;
+    left: 8px;
+    top: -3px;
+    margin-left: 45px;
+  }
+
+ #notas {
+  position: relative;
+  background-color: white;
+  color: var(--cor-text);
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+ }  
+
+ #Calendar_icon span {
+  color: var(--cor-click); 
+}
+
+ #Calendar_icon {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  margin-left: 0px;
+}
+
+#prox_prova{
+  position: absolute;
+  left: 8px;
+  top: -3px;
+  margin-left: 45px;
+}
+
+ #prova{
+  position: relative;
+  background-color: white;
+  color: var(--cor-text);
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ #alert_icon span {
+  color: var(--cor-click);
+}
+
+#alert_icon {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  margin-left: 0px;
+}
+
+#txt_entrega{
+  position: absolute;
+  left: 8px;
+  top: -3px;
+  margin-left: 45px;
+}
+
+ #entregas{
+  position: relative;
+  background-color: white;
+  color: var(--cor-text);
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#msg_icon span {
+  color: var(--cor-click);
+}
+
+#msg_icon {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  margin-left: 0px;
+}
+
+#txt_aviso{
+  position: absolute;
+  left: 8px;
+  top: -3px;
+  margin-left: 45px;
+}
+
+#avisos{
+  position: relative;
+  background-color: white;
+  color: var(--cor-text);
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.font {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+  color: var(--cor-text)
+}
+
