@@ -43,8 +43,3 @@ O projeto é composto por 3 páginas principais:
 - Navegação intuitiva com foco na praticidade.
 - Interações visuais que melhoram a usabilidade.
 
-## 🚀 Como usar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
